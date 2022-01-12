@@ -1,30 +1,8 @@
 
-/*
- * Nicholas Kawwas,
- * Jackey Weng,
- * Karine Chatta, 
- * Shuang Luo,
- * Salma Alawani
-} else if(distanceF < 6 && distanceF > 4 || detectL == 0) {
-remove detectL == 0
-
-
-/*
- * Nicholas Kawwas,
- * Jackey Weng,
- * Karine Chatta, 
- * Shuang Luo,
- * Salma Alawani
- * Group 4: Autonomous Hovercraft Using Vision Sensors
- */
-
-//Define Constants
 #define BAUDRATE 115200
 #define SERIAL_DELAY 90
 #define IMG_SENSOR_YDIM 32
 
-//Creating Finite State Machine to Determine Current and Next Moves in Different Cases 
-//Enumeration of All Possible States
 enum HC_state {
   START,
   ADJUST_HC,
