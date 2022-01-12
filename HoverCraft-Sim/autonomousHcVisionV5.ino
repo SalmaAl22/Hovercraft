@@ -1,11 +1,4 @@
-/*
- * Nicholas Kawwas,
- * Jackey Weng,
- * Karine Chatta, 
- * Shuang Luo,
- * Salma Alawani
- * Group 4: Autonomous Hovercraft Using Vision Sensors
- */
+
 
 //Define Constants
 #define BAUDRATE 115200
